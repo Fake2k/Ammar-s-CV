@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f5d5dc;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+
+}
+
+section {
+  padding: 100px;
+}
+
+.divPic {
+  width: 300px;
+}
+
+.divPic img {
+  margin: 0 0 20px 20px;
+  width: 200px;
+  position: relative;
+}
+
+h4 {
+  margin-top: 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  ;
+}
+
+.navigation a {
+  color: #3a6cf4;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 30px;
+  text-transform: capitalize;
+}
+
+.navigation a:hover {
+  color: #601cfc;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/dark17.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  font-variant: small-caps;
+  color: #4e9eff;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+.main h2 span {
+  font-variant: small-caps;
+  display: inline-block;
+  margin-left: 5px;
+  color: #f5cece;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.main h3 {
+  font-variant: small-caps;
+  color: #f5cece;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0 30px;
+}
+
+.main-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3a6cf4;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375rem 2.1875rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+
+.social-icons a {
+  color: #fff;
+  display: inline-block;
+  padding-right: 14px;
+  font-size: 1.7rem;
+  margin-left: 34px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 20rem;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.icon {
+  color: #3a6cf4;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: #3a6cf4;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.experience {
+  background-color: #000016;
+}
+
+.experience .content {
+  margin-top: 30px;
+}
+
+.experience-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14rem;
+  width: 21rem;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.experience-card:hover {
+  transform: scale(1.1);
+}
+
+.experience-card:hover .work-image {
+  opacity: 0.9;
+}
+
+.work-image img {
+  width: 100%
+}
+
+.work-info {
+  padding: 1rem;
+}
+
+.work-category {
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.work-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.work-info .details {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.more-details {
+  color: #3a6cf4;
+}
+
+.more-details:hover {
+  color: #601cfc;
+}
+
+.contact-me {
+  background-color: #000016;
+}
+
+.contact-me .icon {
+  font-size: 1rem;
+}
+
+.contact-me .info h3 {
+  color: #000;
+}
+
+.contact-me .info p {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #121217;
+  color: #fff;
+  justify-content: space-between;
+  padding: 2rem;
+  display: flex;
+}
+
+.footer-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #3a6cf4;
+  font-family: 'Inconsolata', monospace;
+}
+
+.footer .social-icons a {
+  font-size: 1.3rem;
+  padding: 0 10px 0 0;
+}
+
+@media (max-width:1024px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 10px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  /* .main h2 {
+    font-size: 3rem;
+  } */
+
+  .main h3 {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:641px) {
+  body {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 60px 15px;
+  }
+
+  .main h2 {
+    font-size: 3.5em;
+  }
+
+  .main h2 span {
+    font-size: 2.5rem;
+  }
+
+  .main h3 {
+    font-size: 1.7rem;
+  }
+
+
+}
+
+@media (max-width:380px) {
+  body {
+    font-size: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main h2 {
+    font-size: 1.5rem;
+  }
+
+  .main h2 span {
+    font-size: 1.5rem;
+    margin: 12px 2px 2px;
+  }
+
+  .main h3 {
+    font-size: 1.5rem;
+    margin: 14px 0 15px;
+  }
+
+  .main .social-icons {
+    margin-top: -10px;
+  }
+
+  .experience-card {
+    margin: 0 0 2.5rem 0;
+  }
+
+  .cards .card {
+    margin: 0 0 2.5rem 0;
+  }
+
+  .cantact-me .card {
+    margin: 0 0 2.5rem 0;
+  }
+
+  .divPic img {
+    height: 200px;
+  }
+
+  .navigation {
+    margin: 0 100px;
+  }
+
+}
